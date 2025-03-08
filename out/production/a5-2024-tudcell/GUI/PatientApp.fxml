@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.PatientAppController">
+    <children>
+        <ListView fx:id="patientListView" />
+        <ListView fx:id="appointmentListView" />
+        <HBox spacing="10">
+            <Button text="Add Patient" onAction="#handleAddPatient" />
+            <Button text="Update Patient" onAction="#handleUpdatePatient" />
+            <Button text="Delete Patient" onAction="#handleDeletePatient" />
+        </HBox>
+        <HBox spacing="10">
+            <Button text="Add Appointment" onAction="#handleAddAppointment" />
+            <Button text="Update Appointment" onAction="#handleUpdateAppointment" />
+            <Button text="Delete Appointment" onAction="#handleDeleteAppointment" />
+        </HBox>
+        <HBox spacing="10">
+            <Button text="Filter Appointments by Status" onAction="#handleFilterByStatus" />
+            <Button text="Filter Appointments by Date" onAction="#handleFilterByDate" />
+            <Button text="Filter Patients by Name" onAction="#handleFilterPatientsByName" />
+            <Button text="Filter Patients by Age" onAction="#handleFilterPatientsByAge" />
+        </HBox>
+        <HBox spacing="10">
+            <Button text="Get Appointments for Patient" onAction="#handleGetAppointmentsForPatient" />
+            <Button text="Get Appointments by Date" onAction="#handleGetAppointmentsByDate" />
+            <Button text="Get Appointments by Status" onAction="#handleGetAppointmentsByStatus" />
+            <Button text="Get Appointments for Patient by Date" onAction="#handleGetAppointmentsForPatientByDate" />
+            <Button text="Get Appointments for Patient by Status" onAction="#handleGetAppointmentsForPatientByStatus" />
+        </HBox>
+        <HBox spacing="10">
+            <Button text="View All Appointments" onAction="#handleViewAllAppointments" />
+            <Button text="View All Patients" onAction="#handleViewAllPatients" />
+        </HBox>
+    </children>
+</VBox>

@@ -1,0 +1,5 @@
+1,1,2023-10-01,scheduled
+2,2,2023-10-02,cancelled
+3,3,2023-10-03,finished
+4,4,2023-10-04,finished
+5,5,2023-10-05,finished

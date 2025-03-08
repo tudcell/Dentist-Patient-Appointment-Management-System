@@ -1,0 +1,6 @@
+1,John Doe,30
+2,Ayo,23
+3,Alice Johnson,40
+4,Bob Brown,35
+5,Charlie Davis,50
+6,Bruh,13
